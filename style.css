@@ -43,6 +43,9 @@ h3 {
 p {
   font-size: 1vw;
   font-family: "Montserrat", sans-serif; 
+  padding:0;
+  display:flex; 
+  flex-flow:column wrap;
 }
 
 .spectxt {
