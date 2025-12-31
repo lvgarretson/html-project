@@ -45,18 +45,15 @@ section {
   border: 10px solid #1D3B59;
   padding: 50px;
   margin: 20px;
+  position: absolute; 
+  width: 50%; 
+  left: 15%;
 }
 
 img {
   float: right;
   width: 20%;
   height: auto;
-}
-
-.900 {
-  position: absolute; 
-  width: 50%; 
-  left: 15%;
 }
 
 @media (max-width:800px){
