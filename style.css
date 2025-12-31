@@ -1,4 +1,4 @@
-header{
+header {
   background-color:#f7f7f7; 
   color:#9B1631; 
   text-align:center;
@@ -8,7 +8,7 @@ header{
     
 }
 
-body{
+body {
   color:#f7f7f7; 
   background-color:#9B1631; 
   text-align:center;
@@ -17,6 +17,6 @@ body{
   padding:0px;
 }
 
-img{
-   width:80%; 
+img {
+   width:100%; 
 } 
