@@ -9,7 +9,7 @@ header {
 }
 
 body {
-  color:#81ABD6; 
+  color:#1D3B59; 
   background-color:#f7f7f7; 
   text-align:left;
   margin:0;
@@ -48,7 +48,7 @@ p {
   flex-flow:column wrap;
 }
 
-ul {
+il {
   font-size: 1vw;
   font-family: "Montserrat", sans-serif; 
   padding:0;
