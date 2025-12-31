@@ -25,7 +25,11 @@ img {
    margin-left: 20px; /* Adds space between the image and text */
 }
 
-} 
+ul {
+   width:50%;
+   float: right;
+   margin-left: 20px; /* Adds space between the image and text */
+}
 
 h1 {
   font-size: 5vw;
