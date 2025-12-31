@@ -46,6 +46,9 @@ p {
   padding:0;
   display:flex; 
   flex-flow:column wrap;
+  width: 90%;
+  max-width: 1200px; /* Prevents container from getting too wide on large screens */
+  margin: 0 auto;    /* Centers the container */
 }
 
 il {
