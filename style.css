@@ -58,4 +58,15 @@ section.plane {
   .img img {
     max-width: 220px;
   }
+  .img {
+    text-align: center;
+  }
+  section.plane {
+    flex-direction: column;
+    gap: 20px;
+  }
+   .txt-box {
+    padding: 20px;
+    border-width: 6px;
+  }
 }
