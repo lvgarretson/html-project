@@ -9,7 +9,7 @@ header {
 }
 
 body {
-  color:#f7f7f7; 
+  color:#9B1631; 
   background-color:#003268; 
   text-align:left;
   margin:0;
@@ -25,9 +25,24 @@ img {
 
 h1 {
   font-size: 5vw;
-  font-family: "Avenir", Times, serif; 
+  font-family: "Montserrat", sans-serif; 
 }
 
+h2 {
+  font-size: 3vw;
+  font-family: "Montserrat", sans-serif; 
+}
+
+h3 {
+  font-size: 2vw;
+  font-family: "Montserrat", sans-serif; 
+}
+
+.spectxt {
+  padding:0;
+  display:flex; 
+  flex-flow:column wrap;
+}
 
 @media (max-width:800px){
   
