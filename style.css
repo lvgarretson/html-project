@@ -43,6 +43,7 @@ h3 {
 }
 
 p {
+  text-align:left;
   font-size: 1vw;
   font-family: "Montserrat", sans-serif; 
   padding:0;
@@ -50,8 +51,7 @@ p {
   flex-flow:column wrap;
   width: 25%;
   max-width: 1200px; /* Prevents container from getting too wide on large screens */
-  margin: 0 auto;  
-  text-align:left;/* Centers the container */
+  margin: 0 auto; 
 }
 
 il {
