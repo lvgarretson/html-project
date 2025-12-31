@@ -30,6 +30,7 @@ img {
 h1 {
   font-size: 5vw;
   font-family: "Montserrat", sans-serif; 
+  margin-top:20px;
 }
 
 h2 {
@@ -50,7 +51,8 @@ p {
   flex-flow:column wrap;
   width: 50%;
   max-width: 1200px; /* Prevents container from getting too wide on large screens */
-  margin: 0 auto;    /* Centers the container */
+  margin: 0 auto;  
+  text-align:left;/* Centers the container */
 }
 
 il {
@@ -59,6 +61,7 @@ il {
   padding:0;
   display:flex; 
   flex-flow:column wrap;
+  margin-bottom: 20px;
 }
 
 .spectxt {
