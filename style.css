@@ -55,18 +55,31 @@ section.plane {
 }
 
 @media (max-width: 800px) {
-  .img img {
-    max-width: 220px;
-  }
-  .img {
-    text-align: center;
-  }
   section.plane {
+    margin: 15px 10px;
     flex-direction: column;
     gap: 20px;
   }
-   .txt-box {
+
+  .txt-box {
     padding: 20px;
     border-width: 6px;
   }
+
+  .img {
+    text-align: center;
+  }
+
+  .img img {
+    max-width: 220px;
+  }
+
+  p,
+  li,
+  a {
+    font-size: 1rem;
+  }
+
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.1rem; }
 }
