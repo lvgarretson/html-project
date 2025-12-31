@@ -40,6 +40,11 @@ h3 {
   font-family: "Montserrat", sans-serif; 
 }
 
+p {
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif; 
+}
+
 .spectxt {
   padding:0;
   display:flex; 
