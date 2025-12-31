@@ -80,11 +80,14 @@ container-grid {
     align-items: center; /* Vertically centers content within the grid cells */
     padding: 20px;
     border: 1px solid #ccc;
+    display: flex;
+    flex-flow: column wrap;
+  
 }
 
 /* Optional: styling the image to fit nicely within its container */
 .image-content img {
-    max-width: 100%;
+    max-width: 400px;
     height: auto;
     display: block;
 }
