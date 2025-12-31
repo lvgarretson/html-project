@@ -37,59 +37,13 @@ p {
   flex-flow:column wrap;
 }
 
-XX.spectxt {
-  padding:0;
-  display:flex; 
-  flex-flow:column wrap;
-}
 
 section {
-  display:flex:
-  align-items: center;
-  justify-content: space-between;
   width: 800xp;
   border: 10px solid #1D3B59;
   padding: 50px 10%;
   margin: 20px;
   gap: 40px;
-}
-
-XXg {
-  float: right;
-  width: 20%;
-  height: auto;
-}
-
-X.txt {
-  display: flex;
-}
-
-Ximg {
-  border-radius: 8px;
-  margin-left: 20px; /* Adds space between the text and the image */
-  width: 300px; /* or a percentage, e.g., 50% */ 
-  height: auto
-  float: right; 
-}
-
-container-grid {
-    display: grid;
-    /* Creates two columns, each taking an equal fraction of the space */
-    grid-template-columns: 1fr 1fr;
-    gap: 20px; /* Adds space between columns */
-    align-items: center; /* Vertically centers content within the grid cells */
-    padding: 20px;
-    border: 1px solid #ccc;
-    display: flex;
-    flex-flow: column wrap;
-  
-}
-
-/* Optional: styling the image to fit nicely within its container */
-.image-content img {
-    max-width: 400px;
-    height: auto;
-    display: block;
 }
 
 @media (max-width:800px){
