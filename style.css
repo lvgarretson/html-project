@@ -1,6 +1,6 @@
 header {
   background-color:#f7f7f7; 
-  color:#9B1631; 
+  color:#003268; 
   text-align:center;
   margin:0;
   border:0;
@@ -10,13 +10,15 @@ header {
 
 body {
   color:#f7f7f7; 
-  background-color:#9B1631; 
-  text-align:center;
+  background-color:#003268; 
+  text-align:left;
   margin:0;
   border:0;
   padding:0px;
 }
 
 img {
-   width:100%; 
+   width:50%;
+   margin-left:30px
+   margin-right:30px
 } 
