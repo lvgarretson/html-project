@@ -30,18 +30,18 @@ p {
 }
 
 section.plane {
-  max-width: 1000px;
-  margin: 30px auto;
-  padding: 30px;
-  border: 10px solid #1D3B59;
-
   display: flex;
-  gap: 40px;
   align-items: center;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 1200px;
 }
 
-.txt {
+.txt-box {
+  border: 7px solid #1D3B59;
+  padding: 40px;
   flex: 1;
+  background-color: #f7f7f7;
 }
 
 .img {
@@ -49,9 +49,9 @@ section.plane {
   text-align: right;
 }
 
-img {
-  width: 100%;
+.img img {
   max-width: 400px;
+  width: 100%;
 }
 
 @media (max-width:800px){
