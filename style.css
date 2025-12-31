@@ -40,14 +40,11 @@ p {
   flex-flow:column wrap;
 }
 
-Xsection {
+section {
   width: 400px;
   border: 10px solid #1D3B59;
   padding: 50px;
   margin: 20px;
-  position: absolute; 
-  width: 50%; 
-  left: 15%;
 }
 
 XXg {
