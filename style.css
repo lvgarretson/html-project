@@ -1,6 +1,6 @@
 header {
-  background-color:#f7f7f7; 
-  color:#003268; 
+  background-color:#81ABD6; 
+  color:#f7f7f7; 
   text-align:center;
   margin:0;
   border:0;
@@ -9,8 +9,8 @@ header {
 }
 
 body {
-  color:#9B1631; 
-  background-color:#003268; 
+  color:#81ABD6; 
+  background-color:#f7f7f7; 
   text-align:left;
   margin:0;
   border:0;
@@ -41,6 +41,14 @@ h3 {
 }
 
 p {
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif; 
+  padding:0;
+  display:flex; 
+  flex-flow:column wrap;
+}
+
+ul {
   font-size: 1vw;
   font-family: "Montserrat", sans-serif; 
   padding:0;
