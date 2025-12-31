@@ -43,24 +43,8 @@ h3 {
 }
 
 p {
-  text-align:left;
   font-size: 1vw;
   font-family: "Montserrat", sans-serif; 
-  padding:0;
-  display:flex; 
-  flex-flow:column wrap;
-  width: 25%;
-  max-width: 1200px; /* Prevents container from getting too wide on large screens */
-  margin: 0 auto; 
-}
-
-il {
-  font-size: 1vw;
-  font-family: "Montserrat", sans-serif; 
-  padding:0;
-  display:flex; 
-  flex-flow:column wrap;
-  margin-bottom: 20px;
 }
 
 .spectxt {
