@@ -60,16 +60,33 @@ XXg {
   height: auto;
 }
 
-.txt {
+X.txt {
   display: flex;
 }
 
-img {
+Ximg {
   border-radius: 8px;
   margin-left: 20px; /* Adds space between the text and the image */
   width: 300px; /* or a percentage, e.g., 50% */ 
   height: auto
   float: right; 
+}
+
+container-grid {
+    display: grid;
+    /* Creates two columns, each taking an equal fraction of the space */
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Adds space between columns */
+    align-items: center; /* Vertically centers content within the grid cells */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Optional: styling the image to fit nicely within its container */
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 @media (max-width:800px){
