@@ -44,7 +44,7 @@ section {
   display:flex:
   align-items: center;
   justify-content: space-between;
-  width: 400px;
+  width: 100%;
   border: 10px solid #1D3B59;
   padding: 50px 10%;
   margin: 20px;
