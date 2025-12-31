@@ -69,6 +69,16 @@ il {
   flex-flow:column wrap;
 }
 
+section {
+  margin: 20px;
+}
+
+.900img {
+  width:50%;
+   float: right;
+   margin-left: 20px;
+}
+
 @media (max-width:800px){
   
 }
