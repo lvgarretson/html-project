@@ -35,10 +35,13 @@ p {
   text-align: left;
 }
 
-img {
-  float: right;
+/*img {
+  width: 50%
+  max-width:400px;
+  vertical-align: right;
   margin-left: 15px; /* Adds space between the image and the text */
 }
+
 
 section {
   width: 800xp;
@@ -52,8 +55,16 @@ section {
 }
 
 article {
-  float: right;
-  margin-left: 15px; /* Adds space between the image and the text */
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.txt {
+  flex: 1;
 }
 
 @media (max-width:800px){
