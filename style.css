@@ -40,7 +40,7 @@ p {
   flex-flow:column wrap;
 }
 
-section {
+Xsection {
   width: 400px;
   border: 10px solid #1D3B59;
   padding: 50px;
@@ -50,10 +50,20 @@ section {
   left: 15%;
 }
 
-img {
+XXg {
   float: right;
   width: 20%;
   height: auto;
+}
+
+.900 {
+  display: flex;
+  justify-content: space-between; /* Pushes items to the edges of the container */
+  align-items: center; /* Aligns items vertically in the center */
+}
+
+.900 img {
+  margin-left: 20px; /* Adds space between the text and the image */
 }
 
 @media (max-width:800px){
