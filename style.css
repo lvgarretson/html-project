@@ -54,8 +54,8 @@ p {
 }
 
 section {
-  width: 300px;
-  border: 15px solid green;
+  width: 400px;
+  border: 10px, #1D3B59;
   padding: 50px;
   margin: 20px;
 }
