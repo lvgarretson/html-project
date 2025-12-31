@@ -50,10 +50,12 @@ section.plane {
 }
 
 .img img {
-  max-width: 400px;
   width: 100%;
+  max-width: 280px;
 }
 
-@media (max-width:800px){
-  
+@media (max-width: 800px) {
+  .img img {
+    max-width: 220px;
+  }
 }
