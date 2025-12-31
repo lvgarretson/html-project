@@ -20,9 +20,11 @@ body {
 }
 
 img {
-   width:50%;
-   margin-left:60px
-   margin-right:10px
+   width:20%;
+   float: right;
+   margin-left: 15px; /* Adds space between the image and text */
+}
+
 } 
 
 h1 {
@@ -46,7 +48,7 @@ p {
   padding:0;
   display:flex; 
   flex-flow:column wrap;
-  width: 90%;
+  width: 50%;
   max-width: 1200px; /* Prevents container from getting too wide on large screens */
   margin: 0 auto;    /* Centers the container */
 }
