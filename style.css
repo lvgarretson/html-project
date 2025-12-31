@@ -62,7 +62,7 @@ XXg {
   align-items: left; /* Aligns items vertically in the center */
 }
 
-.img {
+img {
   border-radius: 8px;
   margin-left: 20px; /* Adds space between the text and the image */
   width: 300px; /* or a percentage, e.g., 50% */ 
