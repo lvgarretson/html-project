@@ -33,12 +33,12 @@ section.plane {
   display: flex;
   align-items: center;
   gap: 40px;
-  margin: 40px auto;
+  margin: 250px auto;
   max-width: 1200px;
 }
 
 .txt-box {
-  border: 7px solid #1D3B59;
+  border: 2px solid #1D3B59;
   padding: 40px;
   flex: 1;
   background-color: #f7f7f7;
