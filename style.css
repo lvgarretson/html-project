@@ -48,6 +48,12 @@ section {
   gap: 40px;
   display:flex;
   flex-flow:column wrap;
+  text-align: left;
+}
+
+article {
+  float: right;
+  margin-left: 15px; /* Adds space between the image and the text */
 }
 
 @media (max-width:800px){
